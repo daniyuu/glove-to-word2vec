@@ -53,7 +53,7 @@ glove_file = "{0}.txt".format(file_name)
 num_lines, dims = get_lines(glove_file)
 
 # Output: Gensim Model text format.
-gensim_file = '{0}.bin'.format(file_name)
+gensim_file = './result/{0}.txt'.format(file_name)
 gensim_first_line = "{} {}".format(num_lines, dims)
 
 # Prepends the line.
