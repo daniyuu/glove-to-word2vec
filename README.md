@@ -2,6 +2,6 @@
 Converting GloVe vectors into word2vec format for easy usage with Gensim
 
 Edit:
-```glove_file="glove.6B.300d.txt"``` on line 48.  That is all.  
+```file_name="glove.6B.300d"```
 
-Gross majority of code from https://github.com/manasRK/glove-gensim/ which took a little trial and error.
+Gross majority of code from  jroakes/glove-to-word2vec which took a little trial and error.
